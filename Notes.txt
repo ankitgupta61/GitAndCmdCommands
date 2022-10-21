@@ -27,5 +27,14 @@ command : git remote add origin (url copied from http) (this is commad to *attac
 command : git remote -v (to show all the url those are attached to that current folder)
 command : git push origin master(to push changes to that origin to that branch And now if you refresh you will see all changes, all files at location)
 
+// branch concept 
+
+command : git branch (to see at which branch HEAD is pointing to)
+command : git branch feature (created a new pointer named as feature)
+command : git checkout feature(Head is now shifted and start point at feature)
+//Now it will have two branch : one is main and other is feature. So now if any commit you make with feature that will added at beginning and feature start point to that.
+
+command : git checkout .... (this is used to switch to .... branch)
+command : git merge feature (this will extend one line from feature and one line main and Both's intersection will be at a node and at that node main will start pointing)
 
 
