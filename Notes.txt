@@ -1,0 +1,31 @@
+Download Git from git-scm
+
+open cmd
+
+command : git (then you'll get all git commands and you'll know that git has been installed successgully)
+
+command : dir /A:D /B (to get all files in that folder)
+command : mkdir project (to make a directory named as folder within where cmd in opened)
+command : cls (to clear screen)
+command : cd project(to change directory to project)
+command : cd ..(to get to parent directory from current directory)
+command : git init (to initilize an empty repository in that folder where command is given;
+          basically an local repository is being created in that folder which can't be seen normally as it will be in hidden mode)
+command : type nul > filename.txt (to create a new file)
+command : git status (tells us all the untracked files or how many files have been tracked or at stage area)
+command : git add . (to stage all the untracked files to git repository(. means all, btw you can put individual file name))
+command : git commit -m "message" (commit changes and save it to git repo with a message)
+command : notepad filename.txt (to open sample text file window)
+command : type filename.txt (to read content inside text file)
+command : git restore --stage filename(to remove from stage and It will be shown red if we check git status now)
+command : git log (to know all history of commits made by whom, at what time and what happend(message will let you know))          
+command : del filename (to delete a named file from current folder)
+command : git stash (when you don't want to cmmit changes, So you can send it to git stash and can pop as and when required And now if you do git status, It will show, nothing to commit)
+command : git stash pop (to bring back all things to stage area and in ready to commit state)
+command : git stash clear (to clear all the content in stash)
+command : git remote add origin (url copied from http) (this is commad to *attach* git repository at global to my local)
+command : git remote -v (to show all the url those are attached to that current folder)
+command : git push origin master(to push changes to that origin to that branch And now if you refresh you will see all changes, all files at location)
+
+
+
