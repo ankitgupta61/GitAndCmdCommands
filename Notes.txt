@@ -34,6 +34,8 @@ command : git branch feature (created a new pointer named as feature)
 command : git checkout feature(Head is now shifted and start point at feature)
 //Now it will have two branch : one is main and other is feature. So now if any commit you make with feature that will added at beginning and feature start point to that.
 
+git checkout -b ag-dev (checkout to enter into a branch but -b says as you are requesting for new branch)
+
 command : git checkout .... (this is used to switch to .... branch)
 command : git merge feature (this will extend one line from feature and one line main and Both's intersection will be at a node and at that node main will start pointing)
 
